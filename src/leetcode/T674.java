@@ -3,7 +3,7 @@ package leetcode;
 import java.util.Arrays;
 
 /**
- * @description:最长连续递增子序列
+ * @description:最长连续递增子序列-单层循环
  * @author: lzy
  * @time: 2024/8/11 16:17
  */
