@@ -1,4 +1,4 @@
-package review;
+package review.test;
 
 public class JunitTest {
     public String getLevel(int score) {
