@@ -1,4 +1,4 @@
-package niuke;
+package niuke.dfs;
 
 /**
  * @description: 矩阵最长递增路径 记忆化搜索

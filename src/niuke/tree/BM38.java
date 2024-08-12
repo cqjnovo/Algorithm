@@ -1,4 +1,6 @@
-package niuke;
+package niuke.tree;
+
+import niuke.tree.TreeNode;
 
 /**
  * @description:

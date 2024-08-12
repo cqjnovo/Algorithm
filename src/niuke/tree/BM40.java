@@ -1,6 +1,7 @@
-package niuke;
+package niuke.tree;
 
-import java.lang.reflect.Array;
+import niuke.tree.TreeNode;
+
 import java.util.Arrays;
 
 /**

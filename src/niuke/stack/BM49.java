@@ -1,4 +1,4 @@
-package niuke;
+package niuke.stack;
 
 import java.util.HashMap;
 import java.util.Map;

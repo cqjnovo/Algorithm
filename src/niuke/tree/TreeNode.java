@@ -1,4 +1,4 @@
-package niuke;
+package niuke.tree;
 
 /**
  * @description:

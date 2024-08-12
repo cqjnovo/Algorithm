@@ -1,4 +1,4 @@
-package niuke;
+package niuke.tree;
 
 /**
  * @description:二叉搜索树与双向链表

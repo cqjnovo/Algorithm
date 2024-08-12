@@ -1,4 +1,4 @@
-package niuke;
+package niuke.doublePointers;
 
 /**
  * @description:大数加法：双指针模拟

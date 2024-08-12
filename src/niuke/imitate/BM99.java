@@ -1,4 +1,4 @@
-package niuke;
+package niuke.imitate;
 
 import java.util.Arrays;
 
