@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.doublePointer;
 
 public class T283 {
     public void moveZeroes(int[] nums) {

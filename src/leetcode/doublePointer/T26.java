@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.doublePointer;
 
 public class T26 {
     //双指针删除数组中重复元素

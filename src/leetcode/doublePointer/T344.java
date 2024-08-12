@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.doublePointer;
 
 public class T344 {
     public void reverseString(char[] s) {
@@ -10,10 +10,6 @@ public class T344 {
             left += 1;
             right -= 1;
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
 

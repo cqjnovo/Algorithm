@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.doublePointer;
 
 public class T704 {
     public int search(int[] nums, int target) {

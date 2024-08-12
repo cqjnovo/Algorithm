@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.tree;
 
 /**
  * @description: 将二叉搜索树转化为排序的双向链表

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.doublePointer;
 
 public class T80 {
     public int removeDuplicates(int[] nums) {
