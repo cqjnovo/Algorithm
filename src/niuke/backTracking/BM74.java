@@ -12,7 +12,7 @@ public class BM74 {
 
     public ArrayList<String> res = new ArrayList<>();
     public static void main(String[] args) {
-        String s = "63004186442";
+        String s = "0279245587303";
         BM74 obj = new BM74();
         obj.restoreIpAddresses(s);
         System.out.println(obj.res.size());
@@ -20,6 +20,9 @@ public class BM74 {
 
     public ArrayList<String> restoreIpAddresses (String s) {
         // write code here
+        if (s.length() < 4 || s.length() > 12) {
+            return res;
+        }
         backTracking(s,0,0);
         return res;
     }
