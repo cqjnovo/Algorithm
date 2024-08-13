@@ -15,9 +15,9 @@ public class BM85 {
         // write code here
         String[] ips = null;
         if (IP.contains(".")) {
-            ips = IP.split("\\.");
+            ips = IP.split("\\.",4);
         } else {
-            ips = IP.split(":");
+            ips = IP.split(":",8);
         }
         if (ips.length == 4) {
             if (checkIPv4(ips)) {
