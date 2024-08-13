@@ -45,7 +45,7 @@ public class BM85 {
             int firstIdx = -1;
             for (int i = 0; i < part.length(); i++) {
                 char c = part.charAt(i);
-                if (Character.isLetter(c)) {
+                if (!Character.isDigit(c)) {
                     return false;
                 }
                 if (firstIdx == -1 && part.charAt(i) == '0') {
