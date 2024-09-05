@@ -8,10 +8,6 @@ import java.util.Arrays;
  * @time: 2024/9/5 9:45
  */
 public class T3174 {
-    public static void main(String[] args) {
-        T3174 solution = new T3174();
-        System.out.println(solution.clearDigits("aac34"));
-    }
     public String clearDigits(String s) {
         int cnt = 0;
         StringBuilder sb = new StringBuilder();
