@@ -8,7 +8,7 @@ package leetcode.greedy;
 public class T2207 {
     public long maximumSubsequenceCount(String text, String pattern) {
         char x = pattern.charAt(0), y = pattern.charAt(1);
-        int cnt_x = 0, cnt_y = 0, ans = 0;
+        long cnt_x = 0, cnt_y = 0, ans = 0;
         for (int i = 0; i < text.length(); i++) {
             if (text.charAt(i) == y) {
                 ans += cnt_x;
