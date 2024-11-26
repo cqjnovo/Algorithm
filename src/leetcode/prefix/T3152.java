@@ -9,7 +9,9 @@ package leetcode.prefix;
 public class T3152 {
     /**
      * nums = [4,3,1,6], queries = [[0,2],[2,3]]
-     * flags = [0,1,0],  prefix = [0,1,1]
+     * flags = [0,1,0],  prefix = [0,0,1,1]
+     * [0,2] -> prefix[2] - prefix[0] = 1 - 0 = 1  false
+     * test amend
      * @param nums
      * @param queries
      * @return
